@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chronos — All your calendars, one place</title>
 <meta name="description" content="Chronos is a fast, private calendar app for iPhone and Mac. Google, iCloud, and Microsoft 365 in one place, with natural-language event entry and weather built in.">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
 <style>
   :root {
     --bg: #131517;
@@ -25,11 +27,7 @@
   header { padding: 96px 0 64px; text-align: center; }
   .icon {
     width: 96px; height: 96px; margin: 0 auto 28px;
-    border-radius: 22px;
-    background: linear-gradient(160deg, #17203a, #0c101f);
-    border: 1px solid rgba(255,255,255,0.10);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 48px;
+    border-radius: 22px; display: block;
     box-shadow: 0 12px 48px rgba(122,105,255,0.25);
   }
   h1 { font-size: 44px; font-weight: 800; letter-spacing: -0.5px; }
@@ -68,7 +66,7 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="icon">📅</div>
+      <img class="icon" src="icon.png" alt="Chronos app icon">
       <h1>Chronos</h1>
       <div class="tagline">All your calendars, one place.</div>
       <p class="sub">A fast, private calendar for iPhone and Mac. Google, iCloud, and
