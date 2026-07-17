@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronos — All your calendars, one place</title>
+<meta name="description" content="Chronos is a fast, private calendar app for iPhone and Mac. Google, iCloud, and Microsoft 365 in one place, with natural-language event entry and weather built in.">
+<style>
+  :root {
+    --bg: #131517;
+    --card: rgba(255,255,255,0.06);
+    --text: #f2f3f5;
+    --secondary: rgba(255,255,255,0.55);
+    --blue: #7899ff;
+    --purple: #cc6bf2;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 96px 0 64px; text-align: center; }
+  .icon {
+    width: 96px; height: 96px; margin: 0 auto 28px;
+    border-radius: 22px;
+    background: linear-gradient(160deg, #17203a, #0c101f);
+    border: 1px solid rgba(255,255,255,0.10);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 48px;
+    box-shadow: 0 12px 48px rgba(122,105,255,0.25);
+  }
+  h1 { font-size: 44px; font-weight: 800; letter-spacing: -0.5px; }
+  .tagline {
+    font-size: 22px; font-weight: 600; margin-top: 8px;
+    background: linear-gradient(90deg, var(--blue), #b87afc, var(--purple));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .sub { color: var(--secondary); margin-top: 16px; font-size: 17px; }
+  .features {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px; padding-bottom: 72px;
+  }
+  .feature {
+    background: var(--card); border-radius: 16px; padding: 20px;
+  }
+  .feature h3 { font-size: 16px; margin-bottom: 6px; }
+  .feature p { color: var(--secondary); font-size: 14px; }
+  .badge { font-size: 22px; margin-bottom: 10px; display: block; }
+  footer {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 32px 0 48px; text-align: center;
+    color: var(--secondary); font-size: 14px;
+  }
+  footer a { color: var(--blue); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="icon">📅</div>
+      <h1>Chronos</h1>
+      <div class="tagline">All your calendars, one place.</div>
+      <p class="sub">A fast, private calendar for iPhone and Mac. Google, iCloud, and
+      Microsoft&nbsp;365 side by side — no middleman servers, ever.</p>
+    </header>
+
+    <section class="features">
+      <div class="feature">
+        <span class="badge">⌨️</span>
+        <h3>Type it like you'd say it</h3>
+        <p>"Dinner with Sarah at Passero next Tuesday at 7pm" becomes a full event —
+        date, time, place, and people parsed as you type, real invitations included.</p>
+      </div>
+      <div class="feature">
+        <span class="badge">🔗</span>
+        <h3>Direct connections</h3>
+        <p>Chronos talks straight to Google Calendar, iCloud, and Microsoft&nbsp;365.
+        Your credentials and events never pass through third-party servers.</p>
+      </div>
+      <div class="feature">
+        <span class="badge">🌤️</span>
+        <h3>Weather, built in</h3>
+        <p>Hourly forecasts on your day, temperatures on your events, and EPA AirNow
+        air quality — right where you plan.</p>
+      </div>
+      <div class="feature">
+        <span class="badge">🔒</span>
+        <h3>Private by design</h3>
+        <p>Everything stays on your device. No accounts with us, no analytics,
+        no tracking. Read the privacy policy — it's short because there's
+        nothing to disclose.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p><a href="privacy.html">Privacy Policy</a> · <a href="mailto:glennojoseph@gmail.com">Contact</a></p>
+      <p style="margin-top:8px;">Built by Glenn Joseph</p>
+    </footer>
+  </div>
+</body>
+</html>
